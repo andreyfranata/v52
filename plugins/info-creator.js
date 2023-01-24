@@ -43,34 +43,36 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-let jarot = 'https://telegra.ph/file/1b4913c4196e640732efa.jpg'
-await conn.send3ButtonImg(m.chat, jarot, `${ucapan()}\n\nHallo mypren, @${m.sender.split`@`[0]} 👋\nIni nomor owner botnya, jangan di spam ya\nKalau mau disave syarat nya harus pakai profile Sendiri\nKalau gak ada profile gak bakalan direspon\nJika penting langsung chat Owner\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, 'Source', '.sc', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
-handler.help = ['owner']
-handler.tags = ['info']
-handler.command = /^(owner|creator)$/i
-
-module.exports = handler
-
-function clockString(ms) {
-  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
-  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
-  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-  return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
-}
-function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "⊙─❲ *SELAMAT DINIHARI* ❳"
-  if (time >= 4) {
-    res = "⊙─❲ *SELAMAT PAGI* ❳"
   }
-  if (time > 10) {
-    res = "⊙─❲ *SELAMAT SIANG* ❳"
-  }
-  if (time >= 15) {
-    res = "⊙─❲ *SELAMAT SORE* ❳"
-  }
-  if (time >= 18) {
-    res = "⊙─❲ *SELAMAT MALAM* ❳"
-  }
-  return res
-}
+// let jarot = 'https://telegra.ph/file/1b4913c4196e640732efa.jpg'
+// await conn.send3ButtonImg(m.chat, jarot, `${ucapan()}\n\nHallo mypren, @${m.sender.split`@`[0]} 👋\nIni nomor owner botnya, jangan di spam ya\nKalau mau disave syarat nya harus pakai profile Sendiri\nKalau gak ada profile gak bakalan direspon\nJika penting langsung chat Owner\n\n⫹⫺ Date : *${week} ${date}*\n⫹⫺ Time : *${wib}*`, wm, 'Source', '.sc', 'Menu', '.menu', 'Donasi', '.donasi', sentMsg)}
+// handler.help = ['owner']
+// handler.tags = ['info']
+// handler.command = /^(owner|creator)$/i
+// 
+// module.exports = handler
+// 
+// function clockString(ms) {
+//   let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+//   let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+//   let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+//   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
+// }
+// function ucapan() {
+//   const time = moment.tz('Asia/Jakarta').format('HH')
+//   res = "⊙─❲ *SELAMAT DINIHARI* ❳"
+//   if (time >= 4) {
+//     res = "⊙─❲ *SELAMAT PAGI* ❳"
+//   }
+//   if (time > 10) {
+//     res = "⊙─❲ *SELAMAT SIANG* ❳"
+//   }
+//   if (time >= 15) {
+//     res = "⊙─❲ *SELAMAT SORE* ❳"
+//   }
+//   if (time >= 18) {
+//     res = "⊙─❲ *SELAMAT MALAM* ❳"
+//   }
+//   return res
+//
+//  }
