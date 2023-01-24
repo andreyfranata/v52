@@ -1,4 +1,4 @@
-//Made By Jarot Offc
+//Made By Andrey Franata
 let levelling = require('../lib/levelling')
 let fs = require('fs')
 let path = require('path')
@@ -195,9 +195,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 {
 title: `┄┄┄┄┅┅| SUPPORT |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `🔖 Sewa Bot`, rowId: ".sewa", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚂𝚎𝚠𝚊𝚋𝚘𝚝"},
-	    {title: `🌟 Upgrade Premium`, rowId: ".premium", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚄𝚙𝚐𝚛𝚊𝚍𝚎 𝙿𝚛𝚎𝚖𝚒𝚞𝚖"},
-	    {title: `💰 Donasi`, rowId: ".donasi", description: "𝚂𝚞𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙰𝚐𝚊𝚛 𝙷𝚒𝚍𝚞𝚙 𝚂𝚎𝚕𝚊𝚖𝚊 𝟸𝟺 𝙹𝚊𝚖"},
+//	    {title: `🔖 Sewa Bot`, rowId: ".sewa", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚂𝚎𝚠𝚊𝚋𝚘𝚝"},
+//	    {title: `🌟 Upgrade Premium`, rowId: ".premium", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙻𝚒𝚜𝚝 𝙷𝚊𝚛𝚐𝚊 𝚄𝚙𝚐𝚛𝚊𝚍𝚎 𝙿𝚛𝚎𝚖𝚒𝚞𝚖"},
+//	    {title: `💰 Donasi`, rowId: ".donasi", description: "𝚂𝚞𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙰𝚐𝚊𝚛 𝙷𝚒𝚍𝚞𝚙 𝚂𝚎𝚕𝚊𝚖𝚊 𝟸𝟺 𝙹𝚊𝚖"},
 	{title: `✨ Sosial Media Bot`, rowId: ".sosialmedia", description: '𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙱𝚘𝚝 𝙰𝚐𝚊𝚛 𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝 𝚄𝚙𝚍𝚊𝚝𝚎'},
 	]
 	},{
@@ -244,20 +244,26 @@ let tagnya = `@${m.sender.split`@`[0]}`
 let jarot = `┏─────────────────⬣
 ┆ 𝑯𝒂𝒊, ${tagnya} 👋
 ┗┬──────────────┈ ⳹
-┏┆♠︎ 𝙽𝚊𝚖𝚎 : ${name}
-┃┆♠︎ 𝙻𝚒𝚖𝚒𝚝 : ${limit}
-┃┆♠︎ 𝙼𝚘𝚗𝚎𝚢 : ${money}
-┃┆♠︎ 𝙴𝚡𝚙 : ${exp}
-┃┆♠︎ 𝙻𝚎𝚟𝚎𝚕 : ${level}
-┃┆♠︎ 𝚁𝚘𝚕𝚎: ${role}
-┗┬──────────────┈ ⳹
-┏┤   𝐊𝐚𝐥𝐞𝐧𝐝𝐞𝐫
-┆┗──────────────┈ ⳹
-┆♠︎ 𝙷𝚊𝚛𝚒 : ${week} ${weton}
-┆♠︎ 𝚄𝚙𝚝𝚒𝚖𝚎 : ${uptime}
-┆♠︎ 𝚃𝚒𝚖𝚎 :  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
-┆︎︎♠︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${date}
-┗─────────────────⬣`
+┏┆♠︎ Silahkan Pilih Provider Anda
+┃┆♠︎  
+┗┬──────────────┈ ⳹`
+//`┏─────────────────⬣
+//┆ 𝑯𝒂𝒊, ${tagnya} 👋
+//┗┬──────────────┈ ⳹
+//┏┆♠︎ 𝙽𝚊𝚖𝚎 : ${name}
+//┃┆♠︎ 𝙻𝚒𝚖𝚒𝚝 : ${limit}
+//┃┆♠︎ 𝙼𝚘𝚗𝚎𝚢 : ${money}
+//┃┆♠︎ 𝙴𝚡𝚙 : ${exp}
+//┃┆♠︎ 𝙻𝚎𝚟𝚎𝚕 : ${level}
+//┃┆♠︎ 𝚁𝚘𝚕𝚎: ${role}
+//┗┬──────────────┈ ⳹`
+//┏┤   𝐊𝐚𝐥𝐞𝐧𝐝𝐞𝐫
+//┆┗──────────────┈ ⳹
+//┆♠︎ 𝙷𝚊𝚛𝚒 : ${week} ${weton}
+//┆♠︎ 𝚄𝚙𝚝𝚒𝚖𝚎 : ${uptime}
+//┆♠︎ 𝚃𝚒𝚖𝚎 :  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
+//┆︎︎♠︎ 𝚃𝚊𝚗𝚐𝚐𝚊𝚕: ${date}
+//┗─────────────────⬣`
 let hariRayaramadan = new Date('April 21, 2023 23:59:59') 
      let sekarangg = new Date().getTime() 
      let lebih = hariRayaramadan - sekarangg 
@@ -265,12 +271,12 @@ let hariRayaramadan = new Date('April 21, 2023 23:59:59')
      let jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)) 
      let menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60)) 
      let detikk = Math.floor( lebih % (1000 * 60) / 1000) 
-let fot = `𝙽𝚘𝚝𝚎 𝙹𝚒𝚔𝚊 𝙼𝚎𝚗𝚎𝚖𝚞𝚔𝚊𝚗 𝙵𝚒𝚝𝚞𝚛 𝙴𝚛𝚘𝚛/𝙼𝚎𝚗𝚎𝚖𝚞𝚔𝚊𝚗 𝙱𝚞𝚐 
-𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝙻𝚊𝚙𝚘𝚛 𝙺𝚎 𝙾𝚠𝚗𝚎𝚛 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝙺𝚎𝚝𝚒𝚔 #𝚁𝚎𝚙𝚘𝚛𝚝
+let fot = `𝙽𝚘𝚝𝚎 𝙹𝚒𝚔𝚊 𝙼𝚎𝚗𝚎𝚖𝚞𝚔𝚊𝚗 𝙲𝚘𝚗𝚏𝚒𝚐 𝙴𝚛𝚛𝚘𝚛 𝙳𝚊𝚗 𝙼𝚎𝚗𝚎𝚖𝚞𝚔𝚊𝚗 𝙱𝚞𝚐 𝚃𝚎𝚛𝚋𝚊𝚛𝚞 
+𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝙻𝚊𝚙𝚘𝚛 𝙺𝚎 𝙰𝚍𝚖𝚒𝚗 𝚂𝚒𝚕𝚊𝚑𝚔𝚊𝚗 𝙺𝚎𝚝𝚒𝚔 #𝚁𝚎𝚙𝚘𝚛𝚝
 `
 const listMessage = {
 footer: fot,
-text: 'Made By Jarot Offc',
+text: 'Made By Andrey Franata',
 mentions: await conn.parseMention(jarot),
 title: jarot,
 buttonText: `CLICK HERE ⎙`, 
@@ -340,18 +346,18 @@ let gh = 'https://github.com/JarotOffc?tab=repositories'
 let buttonMessage= {
 'document':{'url':gh},
 'mimetype': 'application/pdf',
-'fileName':'𝙱𝚘𝚝 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝙱𝚢 𝙹𝚊𝚛𝚘𝚝',
+'fileName':'𝙱𝚘𝚝 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝙱𝚢 𝙰𝚗𝚍𝚛𝚎𝚢',
 'fileLength':'99999999999999',
 'pageCount':'999',
 'contextInfo':{
 'externalAdReply':{
 'showAdAttribution': true, 
-'mediaUrl': 'https://instagram.com/jarotr_',
+'mediaUrl': 'https://instagram.com/abcizyx',
 'title': '𝙱𝙾𝚃 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 𝙱𝚈 𝙹𝙰𝚁𝙾𝚃',
 'body':'',
 'mediaType': 2,
 'thumbnail': fs.readFileSync('./thumbnail.jpg'),
-'sourceUrl': 'https://instagram.com/jarotr_'}},
+'sourceUrl': 'https://instagram.com/abcizyx'}},
 'caption': `             *『 D A S H B O A R D』*`,
 'footer': text,
 'buttons':[

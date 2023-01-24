@@ -20,7 +20,7 @@ let handler = async (m, { conn }) => {
     contextInfo: {
       externalAdReply: {
         title: "Motivasi For You",
-        body: `Oscar Aktif Selama ${uptime}`,
+        body: `Andrey Franata Aktif Selama ${uptime}`,
         sourceUrl: `${pickRandom([
           "https://vt.tiktok.com/ZSdoxvMyp/",
           "https://vt.tiktok.com/ZSdoxmRFv/",

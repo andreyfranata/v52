@@ -1,5 +1,5 @@
 /*
-By : Oscar
+By : Andrey Franata
 */
 let handler = m => m
 

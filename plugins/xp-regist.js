@@ -23,7 +23,7 @@ let handler = async function (m, { text, usedPrefix }) {
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
   user.serial = sn
-  let ftroli = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6285850539404-1604595598@g.us"}, "message": {orderMessage: {itemCount: 0,status: 200, surface: 200, message: 'TERDAFTAR ✅', orderTitle: 'Centauri', sellerJid: '0@s.whatsapp.net'}}}
+  let ftroli = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6283189250309-1604595598@g.us"}, "message": {orderMessage: {itemCount: 0,status: 200, surface: 200, message: 'TERDAFTAR ✅', orderTitle: 'Centauri', sellerJid: '0@s.whatsapp.net'}}}
   
   m.reply(`
 ╭─❒ 〔 DAFTAR BERHASIL 〕

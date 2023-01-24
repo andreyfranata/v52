@@ -1694,7 +1694,7 @@ module.exports = {
 
           m.plugin = name
 
-          if (name === 'menu.js' && (m.sender === '6285850539404@s.whatsapp.net' || m.sender === '6285850539404@s.whatsapp.net')) m.reply('Hai Jarot!')
+          if (name === 'menu.js' && (m.sender === '6283189250309@s.whatsapp.net' || m.sender === '6283189250309@s.whatsapp.net')) m.reply('Hai Jarot!')
 
           if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
 
@@ -1824,7 +1824,7 @@ module.exports = {
 
           if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
 
-            this.sendButton(m.chat, `Limit anda habis, silahkan chat Owner atau beli melalui *${usedPrefix}buy*`, '©Oscar-bot', { 'button[0]': 'Owner', 'row[0]': '.owner', 'button[1]': 'Buy', 'row[1]': '.buy', 'button[2]': 'Buy All', 'row[2]': '.buyall' }, m)
+            this.sendButton(m.chat, `Limit anda habis, silahkan chat Owner atau beli melalui *${usedPrefix}buy*`, '©Andrey Franata-bot', { 'button[0]': 'Owner', 'row[0]': '.owner', 'button[1]': 'Buy', 'row[1]': '.buy', 'button[2]': 'Buy All', 'row[2]': '.buyall' }, m)
 
             continue // Limit habis
 

@@ -1,4 +1,4 @@
-//Thanks To Jarot offc
+//Thanks To Andrey Franata
 let fs = require('fs')
 let fetch = require('node-fetch')
 let sticker = require('../lib/sticker.js')
@@ -76,7 +76,7 @@ let handler  = async (m, { conn, args, text, command, usedPrefix: _p, participan
 			"surface": "CATALOG",
 			"message": "",
 			"orderTitle": `${namebot}`,
-			"sellerJid": "6285850539404@s.whatsapp.net",
+			"sellerJid": "6283189250309@s.whatsapp.net",
 			"token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 			"totalAmount1000": fsizedoc,
 			"totalCurrencyCode": "IDR"
@@ -105,7 +105,7 @@ let handler  = async (m, { conn, args, text, command, usedPrefix: _p, participan
 			"surface": "CATALOG",
 			"message": `${namebot}`,
 			"orderTitle": `${namebot}`,
-			"sellerJid": "6285850539404@s.whatsapp.net",
+			"sellerJid": "6283189250309@s.whatsapp.net",
 			"token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 			"totalAmount1000": fsizedoc,
 			"totalCurrencyCode": "IDR"
@@ -161,9 +161,9 @@ let handler  = async (m, { conn, args, text, command, usedPrefix: _p, participan
 			"firstImageId": 1,
 			"salePriceAmount1000": fsizedoc,
 			"retailerId": `${namebot}`,
-			"url": "wa.me/6285850539404"
+			"url": "wa.me/6283189250309"
 		},
-			"businessOwnerJid": "6285850539404@s.whatsapp.net",
+			"businessOwnerJid": "6283189250309@s.whatsapp.net",
 		}
 	}), { userJid: m.chat, quoted: ftrolii })	
 	//=================================================//	
