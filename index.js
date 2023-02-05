@@ -1115,7 +1115,7 @@ Info: *bold* hash is Locked
             reply(lang.DoneMsg(prefix, text))
          }
          break
-         case 'getmsg': {
+         case 'msg': {
             if (!text) reply(lang.GetMsg(prefix, command))
             let msgs = JSON.parse(fs.readFileSync('./database/database.json'))
             if (!(text.toLowerCase() in msgs)) return reply(lang.NoInMsg(text))
