@@ -63,7 +63,7 @@ global.typemenu2 = 'image' //
 global.multiplier = 69
 global.limitawal = {
    premium: "10000",
-   free: 100
+   free: 1000000
 }
 global.buttonDefault = [{
    urlButton: {
