@@ -2482,6 +2482,23 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             })
          }
          break
+         case 'donasi':
+         case 'donate': {
+            await alpha.sendMessage(m.chat, {
+               image: qris,
+               caption: lang.tos(ownernomer)
+            }, {
+               quoted: m
+            })
+         }
+         break
+         case 'premium':
+         case 'premium': {
+            await alpha.sendMessage(m.chat, {
+               image: qris,
+               caption: `.addprem ${m.sender.split('@')[0]}|365d`})
+         }
+         break
 
          //Random Anime
          case 'cry':
