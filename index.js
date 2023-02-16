@@ -16,7 +16,7 @@
 	@ And All Support
 **/
 
-
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 require('./settings')
 const {
    default: makeWASocket,
