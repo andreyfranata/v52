@@ -172,7 +172,7 @@ exports.AdMsg = (text) => {
 exports.DoneMsg = (prefix, text) => {
     return `Berhasil menambahkan pesan di list pesan sebagai '${text}'
     
-Akses dengan ${prefix}getmsg ${text}
+Akses dengan ${prefix}msg ${text}
 Lihat list Pesan Dengan ${prefix}listmsg`
 }
 exports.GetMsg = (prefix, command) => {
@@ -417,7 +417,7 @@ exports.TbJail = (prefix, command) => {
     return `Kirim/Reply Foto/Sticker Dengan Caption ${prefix + command}`
 }
 exports.TbRepo = (prefix, command) => {
-    return `Kirim perintah ${prefix + command} *user* *repo* *branch*\n\nExp. ${prefix + command} *zeeone-ofc* *Alphabot-Md* *v12*`
+    return `Kirim perintah ${prefix + command} *user* *repo* *branch*\n\nExp. ${prefix + command} *zeeone-ofc* *andreyfranata* *v12*`
 }
 exports.StalkIg = () => {
     return `Masukkan username`
@@ -1737,7 +1737,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ Mhankbarbar
 │○ Nurutomo
 │○ Rashid
-│○ ZeeoneOfc
+│○ andreyfranata
 │○ Penyedia Module
 ╰❒ And All Support
     `
@@ -1787,7 +1787,7 @@ exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://s.id/YouTube-Zeeoneofc
+Recode : https://s.id/YouTube-andreyfranata
 `
 }
 exports.tos = (ownernomer) => {
@@ -2465,7 +2465,7 @@ exports.tqto = () =>{
 │○ Mhankbarbar
 │○ Nurutomo
 │○ Rashid
-│○ ZeeoneOfc
+│○ andreyfranata
 │○ Penyedia Module
 ╰❒ And All Support
 `

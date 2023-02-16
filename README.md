@@ -1,11 +1,11 @@
 ## BACA DULU BANG
 
-> **Warning**: Sc nya gk support termux. [`Klik disini untuk download sc yg support termux`](https://github.com/zeeone-ofc/Alphabot-Md#For-Termux)
+> **Warning**: Sc nya gk support termux. [`Klik disini untuk download sc yg support termux`](https://github.com/zeeone-ofc/andreyfranata#For-Termux)
 
 -----------------------------------------------------
 
 <p align="center">
-<img src="https://github.com/zeeone-ofc/Alphabot-Md/blob/v7.1/image/lol_1.jpg" alt="ALPHA BOT" width="100"/>
+<img src="https://github.com/zeeone-ofc/andreyfranata/blob/v7.1/image/lol_1.jpg" alt="ALPHA BOT" width="100"/>
 
 
 </p>
@@ -14,17 +14,17 @@
 </p>
 <p align="center">
 <a href="https://github.com/DikaArdnt"><img title="Author" src="https://img.shields.io/badge/Author-Dika-red.svg?style=for-the-badge&logo=github"></a>
-<a href="https://github.com/zeeone-ofc/Alphabot-Md"><img title="Recode" src="https://img.shields.io/badge/Recode-ZeeoneOfc-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/zeeone-ofc/andreyfranata"><img title="Recode" src="https://img.shields.io/badge/Recode-andreyfranata-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/zeeone-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/zeeone-ofc?color=red&style=flat-square"></a>
-<a href="https://github.com/zeeone-ofc/Alphabot-Md/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zeeone-ofc/Alphabot-Md?color=blue&style=flat-square"></a>
-<a href="https://github.com/zeeone-ofc/Alphabot-Md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/zeeone-ofc/Alphabot-Md?color=red&style=flat-square"></a>
-<a href="https://github.com/zeeone-ofc/Alphabot-Md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/zeeone-ofc/Alphabot-Md?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/zeeone-ofc/Alphabot-Md"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
-<a href="https://github.com/zeeone-ofc/Alphabot-Md/"><img title="Size" src="https://img.shields.io/github/repo-size/zeeone-ofc/Alphabot-Md?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzeeone-ofc%2FAlphabot-Md&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/zeeone-ofc/Alphabot-Md/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/zeeone-ofc/andreyfranata/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/zeeone-ofc/andreyfranata?color=blue&style=flat-square"></a>
+<a href="https://github.com/zeeone-ofc/andreyfranata/network/members"><img title="Forks" src="https://img.shields.io/github/forks/zeeone-ofc/andreyfranata?color=red&style=flat-square"></a>
+<a href="https://github.com/zeeone-ofc/andreyfranata/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/zeeone-ofc/andreyfranata?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/zeeone-ofc/andreyfranata"><img title="Open Source" src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103"></a>
+<a href="https://github.com/zeeone-ofc/andreyfranata/"><img title="Size" src="https://img.shields.io/github/repo-size/zeeone-ofc/andreyfranata?style=flat-square&color=green"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzeeone-ofc%2Fandreyfranata&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/zeeone-ofc/andreyfranata/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 </div>
 
@@ -47,7 +47,7 @@
 ---
 
 ## Information
-> Alpahbot-Md adalah bot yang memakai base dari [Hisoka-Morou](https://github.com/DikaArdnt/Hisoka-Morou). Alphabot-Md is a bot whatsapp using a [Baileys](https://github.com/adiwajshing/baileys) library.
+> Alpahbot-Md adalah bot yang memakai base dari [Hisoka-Morou](https://github.com/DikaArdnt/Hisoka-Morou). andreyfranata is a bot whatsapp using a [Baileys](https://github.com/adiwajshing/baileys) library.
 
 ## Support Language
 
@@ -59,11 +59,11 @@ But some I haven't changed the language 🛐
 
 # Instalasi
 ## FOR REPLIT USER
-[![Run on Repl.it](https://repl.it/badge/github/zeeone-ofc/Alphabot-Md)](https://repl.it/github/zeeone-ofc/Alphabot-Md)
+[![Run on Repl.it](https://repl.it/badge/github/zeeone-ofc/andreyfranata)](https://repl.it/github/zeeone-ofc/andreyfranata)
 
 ## FOR RAILWAY USER 
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fzeeone-ofc%2FAlphabot-Md)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fzeeone-ofc%2Fandreyfranata)
 
 [`Click Here For Tutorial`](https://youtu.be/BqRauxohbLg)<br>
 
@@ -110,24 +110,24 @@ global.language = indonesia  //change indonesia to english if you don't understa
 
 // Other
 // Other
-global.botname = "Alphabot-Mdོ" //namabot kalian
-global.ownername= "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×" //nama kalian
+global.botname = "andreyfranataོ" //namabot kalian
+global.ownername= "ᴹᴿ᭄ andreyfranataོ ×፝֟͜×" //nama kalian
 global.myweb ="https://api.zeeoneofc.xyz" //bebas asal jan hapus
-global.youtube = "https://youtube.com/c/ZeeoneOfc" //bebas asal jan hapus
-global.myweb2 = "https://linktr.ee/zeeoneofc" //bebas
-global.email = "zeeoneofc@gmail.com" //bebas
+global.youtube = "https://youtube.com/c/andreyfranata" //bebas asal jan hapus
+global.myweb2 = "https://linktr.ee/andreyfranata" //bebas
+global.email = "andreyfranata@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone wib
-global.premium = ['62887435047326'] //premium user
-global.owner = ["6285342106390","622150996855"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "62887435047326" // nomor wa kalian
-global.ownernomerr = "+62887435047326" //nmr wa kalian
+global.premium = ['6283189250309'] //premium user
+global.owner = ["6285342106390","6283189250309"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "6283189250309" // nomor wa kalian
+global.ownernomerr = "+6283189250309" //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.thumbGif = 'https://telegra.ph/file/e90bef3779d3c5812a5d1.mp4'
-global.packname = '© Alphabot-Mdོ' //sticker wm ubah
-global.author = 'Di Buat Oleh ZeeoneOfc' //sticker wm ganti nama kalian
+global.packname = '© andreyfranataོ' //sticker wm ubah
+global.author = 'Di Buat Oleh andreyfranata' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.typemenu = 'document'
 global.multiplier = 69
@@ -215,7 +215,7 @@ global.rpg = {
 
 ## Donate
 - [Qris all pay](https://telegra.ph/file/447be9e64d95c825f692b.jpg)
-- [Paypal](https://paypal.me/zeeoneofc)
+- [Paypal](https://paypal.me/andreyfranata)
 
 # Official Group
 <a href="https://instabio.cc/Alphabot"><img src="https://img.shields.io/badge/Alphabot Support-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />

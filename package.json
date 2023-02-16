@@ -1,5 +1,5 @@
 {
-  "name": "Alphabot-Md",
+  "name": "andreyfranata",
   "version": "17.0.3",
   "description": "Alphabot Md, Only update in YouTube ZEEONE OFC",
   "main": "zeeone.js",
@@ -14,7 +14,7 @@
     "base",
     "baileys-md"
   ],
-  "author": "ZeeoneOfc",
+  "author": "andreyfranata",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys": "npm:baileys@^6.0.7",

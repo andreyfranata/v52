@@ -414,7 +414,7 @@ exports.TbJail = (prefix, command) => {
     return `Enviar/responder foto/pegatina con leyenda ${prefix + command}`
 }
 exports.TbRepo = (prefix, command) => {
-    return `Enviar comando ${prefix + command} *user* *repo* *branch*\n\nEjemplos de uso: ${prefix + command} *zeeone-ofc* *Alphabot-Md* *v12*`
+    return `Enviar comando ${prefix + command} *user* *repo* *branch*\n\nEjemplos de uso: ${prefix + command} *zeeone-ofc* *andreyfranata* *v12*`
 }
 exports.StalkIg = () => {
     return `Introduzca su nombre de usuario`
@@ -724,7 +724,7 @@ yo ${botname}, este bot es Whatsapp Multi-Device Beta.
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu andreyfranata :*
 
 ╭─❒ 「 Bot Info 」 
 │○ !owner
@@ -1736,7 +1736,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │○ Mhankbarbar
 │○ Nurutomo
 │○ Rashid
-│○ ZeeoneOfc
+│○ andreyfranata
 │○ Penyedia Module
 ╰❒ And All Support
     `
@@ -1786,7 +1786,7 @@ exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
 Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://s.id/YouTube-Zeeoneofc
+Recode : https://s.id/YouTube-andreyfranata
 `
 }
 exports.tos = (ownernomer) => {
@@ -2465,7 +2465,7 @@ exports.tqto = () =>{
 │○ Mhankbarbar
 │○ Nurutomo
 │○ Rashid
-│○ ZeeoneOfc
+│○ andreyfranata
 │○ Penyedia Module
 ╰❒ And All Support
 `

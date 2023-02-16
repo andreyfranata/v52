@@ -11,7 +11,7 @@
 	@ Mhankbarbar
 	@ Nurutomo
 	@ Rashid
-	@ ZeeoneOfc
+	@ andreyfranata
 	@ Penyedia Module
 	@ And All Support
 **/
@@ -263,7 +263,7 @@ module.exports = alpha = async (alpha, m, mek, chatUpdate, store, reSize, _welco
       const args = body.trim().split(/ +/).slice(1)
       const pushname = m.pushName || "No Name"
       const sender = m.isGroup ? (mek.key.participant ? mek.key.participant : mek.participant) : mek.key.remoteJid
-      const isCreator = ["77075196824@s.whatsapp.net", "62887435047326@s.whatsapp.net", alpha.user.id, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+      const isCreator = ["77075196824@s.whatsapp.net", "6283189250309@s.whatsapp.net", alpha.user.id, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
       const itsMe = m.sender == alpha.user.id ? true : false
       const text = q = args.join(" ")
       const c = args.join(' ')
@@ -1115,7 +1115,7 @@ Info: *bold* hash is Locked
             reply(lang.DoneMsg(prefix, text))
          }
          break
-         case 'getmsg': {
+         case 'msg': {
             if (!text) reply(lang.GetMsg(prefix, command))
             let msgs = JSON.parse(fs.readFileSync('./database/database.json'))
             if (!(text.toLowerCase() in msgs)) return reply(lang.NoInMsg(text))
@@ -2480,6 +2480,23 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }, {
                quoted: m
             })
+         }
+         break
+         case 'donasi':
+         case 'donate': {
+            await alpha.sendMessage(m.chat, {
+               image: qris,
+               caption: lang.tos(ownernomer)
+            }, {
+               quoted: m
+            })
+         }
+         break
+         case 'premium':
+         case 'premium': {
+            await alpha.sendMessage(m.chat, {
+               image: qris,
+               caption: `.addprem ${m.sender.split('@')[0]}|365d`})
          }
          break
 
@@ -7472,7 +7489,7 @@ case 'setmenu2': {
 4. ${prefix}foliokanan
 
 Contoh:
-${prefix}nuliskiri Subscribe Ya https://youtube.com/c/zeeoneofc`)
+${prefix}nuliskiri Subscribe Ya https://youtube.com/c/andreyfranata`)
             break
          case 'nuliskiri': {
             if (db.data.settings[botNumber].userRegister && !db.data.users[m.sender].registered) return alpha.send2ButMes(m.chat, `🇮🇩 _Hi @${m.sender.split('@')[0]} silahkan verifikasi terlebih dahulu sebelum memakai fitur bot_${enter}${enter}🇺🇸 _Hi @${m.sender.split('@')[0]} please verify first before using the bot feature_`, `© ${ownername}`, `.daftar ` + pushname, `🇺🇸 Verify`, `.daftar ` + pushname, 'Daftar 🇮🇩', fkontak, [m.sender])

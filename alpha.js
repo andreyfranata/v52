@@ -187,7 +187,7 @@ if (global.db) setInterval(async () => {
       })
    }
 
-   console.log(color(figlet.textSync('Alphabot-MD', {
+   console.log(color(figlet.textSync('andreyfranata', {
       font: 'Standard',
       horizontalLayout: 'default',
       vertivalLayout: 'default',
@@ -231,7 +231,7 @@ if (global.db) setInterval(async () => {
          }
          return message;
       },
-      browser: ['Bot By ZeeoneOfc', 'safari', '1.0.0'],
+      browser: ['Bot By andreyfranata', 'safari', '1.0.0'],
       auth: state
    })
 
